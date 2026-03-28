@@ -1,0 +1,230 @@
+.login-page {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 1040px;
+  min-height: 520px;
+  background-color: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: 1.05fr 1.1fr;
+  overflow: hidden;
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.login-left {
+  position: relative;
+  overflow: hidden;
+  padding: 40px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/login.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  opacity: 1;
+  filter: brightness(1.25);
+}
+
+.login-left-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(168deg,
+      rgba(156, 76, 220, 0.6),
+      rgba(80, 71, 211, 0.7));
+  border-radius: 20px;
+}
+
+.login-left-inner {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  max-width: 360px;
+}
+
+.login-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.login-logo {
+  width: 98%;
+  height: 101px;
+  object-fit: contain;
+}
+
+
+.login-left-description {
+  padding: 0px 40px;
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 1;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.login-right {
+  padding: 40px 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right-inner {
+  width: 100%;
+  max-width: 360px;
+}
+
+.welcome-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+  color: rgba(0, 0, 0, 1);
+}
+
+.welcome-subtitle {
+  margin: 30px 0 12px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-input {
+  width: 100%;
+  border: none;
+  padding: 12px 14px;
+  font-size: 13px;
+  outline: none;
+  background-color: rgba(217, 217, 217, 0.2);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+.form-input:focus {
+  border-color: #6366f1;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(99, 102, 241, 0.35);
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper .form-input {
+  padding-right: 40px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.login-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.remember-me {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #4b5563;
+}
+
+.remember-me input[type="checkbox"] {
+  accent-color: #4f46e5;
+}
+
+.forgot-password {
+  background: none;
+  border: none;
+  color: #6366f1;
+  cursor: pointer;
+  padding: 0;
+  font-size: 12px;
+}
+
+.login-button {
+  margin: 18px auto 0;
+  display: block;
+  width: 60%;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(90deg, rgba(112, 71, 237, 1), rgba(184, 72, 255, 1));
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: transform 0.12s ease, box-shadow 0.12s ease,
+    filter 0.12s ease;
+}
+
+.login-button:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .login-card {
+    grid-template-columns: 1fr;
+  }
+
+  .login-left {
+    display: none;
+  }
+
+  .login-right {
+    padding: 32px 24px;
+  }
+
+  .login-page {
+    padding: 16px;
+  }
+}

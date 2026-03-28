@@ -1,0 +1,46 @@
+ {
+    "courses" : [
+        {
+          "id": 1,
+          "title": "Python Backend _2601_10AM",
+          "desc": "Learn about Python",
+          "date": "31/01/2026",
+          "img": "/courseImages/python.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Java Backend _2601_10AM",
+          "desc": "Learn about Java",
+          "date": "31/01/2026",
+          "img": "/courseImages/java.jpg"
+        },
+        {
+          "id": 3,
+          "title": "DevOps Backend _2601_10AM",
+          "desc": "Learn about DevOps",
+          "date": "31/01/2026",
+          "img": "/courseImages/devops.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Power BI _2601_10AM",
+          "desc": "Learn about Power BI",
+          "date": "31/01/2026",
+          "img": "/courseImages/datvisualization.jpg"
+        },
+        {
+          "id": 5,
+          "title": "AI/ML _2601_10AM",
+          "desc": "Learn about AI/ML",
+          "date": "31/01/2026",
+          "img": "/courseImages/ai.jpg"
+        },
+        {
+          "id": 6,
+          "title": "React JS Backend _2601_10AM",
+          "desc": "Learn about React JS",
+          "date": "31/01/2026",
+          "img": "/courseImages/react.jpg"
+        }
+      ]
+ }
