@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Courses.css";
+import "./styles/Courses.css";
 
 const courses = [
   {
@@ -126,4 +126,4 @@ const Courses =()=> {
   );
 }
 
-export default Courses;
+export default Courses;

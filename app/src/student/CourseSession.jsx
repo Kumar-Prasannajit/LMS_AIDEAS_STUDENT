@@ -1,5 +1,5 @@
 
-import "./CourseSession.css"
+import "./styles/CourseSession.css"
 import { useState } from "react"
 
 const lectures = [
@@ -110,4 +110,4 @@ function CourseSession(){
 
 }
 
-export default CourseSession
+export default CourseSession

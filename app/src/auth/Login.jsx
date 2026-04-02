@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css";
+import "./styles/Login.css";
 
 const Login = () => {
   return (
@@ -81,4 +81,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login;

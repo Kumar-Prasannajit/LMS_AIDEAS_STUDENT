@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./StudentDashboard.css";
+import "./styles/StudentDashboard.css";
 import rawData from "../RawData.json";
 
 
