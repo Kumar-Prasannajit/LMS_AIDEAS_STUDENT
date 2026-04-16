@@ -13,7 +13,7 @@ A student-centric educational platform designed for interactive course managemen
 
 - **Framework**: React 19 (Vite)
 - **Routing**: React Router DOM v7
-- **Styling**: Vanilla CSS
+- **Styling**: Tailwind CSS
 - **Data Management**: JSON-based mock data (`RawData.json`)
 
 ## 📁 Project Structure
