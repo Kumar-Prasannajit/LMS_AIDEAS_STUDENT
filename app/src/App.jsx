@@ -1,4 +1,3 @@
-import './styles/App.css'
 import Login from './auth/Login'
 import StudentNavbar from './components/studentNavbar/StudentNavbar'
 import Courses from './student/Courses'

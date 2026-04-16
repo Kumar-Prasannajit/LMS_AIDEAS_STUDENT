@@ -1,11 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thick::-webkit-scrollbar {
+    width: 20px;
+  }
+  .scrollbar-thick::-webkit-scrollbar-track {
+    background: #E5E7EB;
+    border-radius: 10px;
+  }
+  .scrollbar-thick::-webkit-scrollbar-thumb {
+    background: #6B7280;
+    border-radius: 10px;
+    border: 4px solid #E5E7EB;
+  }
+
+  .scrollbar-medium::-webkit-scrollbar {
+    width: 14px;
+  }
+  .scrollbar-medium::-webkit-scrollbar-track {
+    background: #E5E7EB;
+    border-radius: 10px;
+  }
+  .scrollbar-medium::-webkit-scrollbar-thumb {
+    background: #6B7280;
+    border-radius: 10px;
+    border: 3px solid #E5E7EB;
+  }
 }
